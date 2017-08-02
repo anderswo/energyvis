@@ -25,6 +25,7 @@ class BaseConfig(object):
     LOGGING_DATEFORMAT = '%Y-%m-%d %H:%M:%S'
     LOGGING_LOCATION = 'log'  # use app.log to log into the app folder
     LOGGING_LEVEL = logging.INFO
+    PORT = 8000
 
 
 class DevelopmentConfig(BaseConfig):
@@ -48,8 +49,9 @@ class ProductionConfig(BaseConfig):
     NAME = 'Production'
     DEBUG = False
     TESTING = False
-    DATABASE_URI = 'sqlite:///energy.db'
+    DATABASE_URI = 'sqlite:///data/energy.db'
     LOGGING_LEVEL = logging.INFO
+    PORT = 62226
 
 
 config = {
