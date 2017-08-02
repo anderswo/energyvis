@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DB Listing</title>
+</head>
+
+<body>
+  {# List data #}
+  {% for item in data %}
+      {{ item.geo, item.product, item.indicator, item.annual_data_2015}}
+  {% endfor %}
+</body>
+
+</html>

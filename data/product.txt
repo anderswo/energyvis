@@ -1,0 +1,33 @@
+Code	Label
+0000	All products
+2000	Solid fuels
+2116	Coking Coal
+2117	Other Bituminous Coal
+2121	Coke Oven Coke
+2210	Lignite/Brown Coal
+2500_S	Other solid fuels
+3000	Total petroleum products
+3105	Crude oil (without NGL)
+3110_S	Other primary oil
+3234	Gasoline (without bio components)
+3247	Kerosene type jet fuel (without bio components)
+3260	Gas/diesel oil (without bio components)
+3270A	Total fuel oil
+3300_S	Other petroleum products
+4000	Gas
+4100	Natural gas
+4200	Derived gases
+5100	Nuclear heat
+5200	Derived heat
+5500	Renewable energies
+5510	Hydro power
+5520	Wind power
+5532	Solar thermal
+5534	Solar photovoltaic
+5541	Solid biofuels (excluding charcoal)
+55432	Municipal waste (non-renewable)
+5545	Liquid biofuels
+5560_S	Other renewable energies
+6000	Electrical energy
+7100	Industrial wastes
+7200	Waste (non-renewable)

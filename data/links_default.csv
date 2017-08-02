@@ -1,0 +1,20 @@
+source;target;value;value_label
+Primary production;Production;B_100100;Primary production
+Other production;Production;B_100115_S;Other production
+Production;Available from all sources;B_100120_S;Production
+Imports;Available from all sources;B_100300;Imports
+Stock draw;Available from all sources;B_100401_S;Stock draw
+Statistical difference - inflow;Available from all sources;B_102201_S;Statistical difference - inflow
+Available from all sources;Direct carry-over;B_100450_S;Into direct carry-over
+Direct carry-over;Available after transformation;B_100460_S;From direct carry-over
+Available from all sources;Transformation;B_101051_S;Net transformation input
+Transformation;Transformation losses;B_101251_S;Transformation losses
+Transformation;Available after transformation;B_101151_S;Net transformation output
+Available after transformation;Final Consumption;B_101550_S;Final consumption
+Available after transformation;Direct use;B_100112;Direct use
+Available after transformation;Distribution and transmission losses;B_101400;Distribution Losses
+Available after transformation;Consumption of the energy branch;B_101300;Consumption in Energy Sector
+Available after transformation;Marine bunkers;B_100800;International Marine Bunkers
+Available after transformation;Exports;B_100500;Exports
+Available after transformation;Stock build;B_100402_S;Stock build
+Available after transformation;Statistical difference - outflow;B_102202_S;Statistical difference - outflow

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Energy flow diagramm</title>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<body>
+  <h1>Energy balance flow: {{ headline }}</h1>
+
+  {# Form for geo dropdown and year radio buttons #}
+  <form action="/" method="GET">
+    {# geo dropdown menue #}
+    <select name="geo" onchange="this.form.submit()">
+      {% for item in geo_list %}
+        {% if item == request.args.get('geo') %}
+          <option selected="selected" value="{{ item }}">{{ item }} </option>
+        {% else %}
+          <option value="{{ item }}">{{ item }} </option>
+        {% endif %}
+      {% endfor %}
+    </select>
+
+    {#  year radio buttons #}
+    {% for item in year_list %}
+      {% if item == request.args.get('year') | int %}
+        <label><input onchange="this.form.submit()" type="radio" name="year" checked="checked" value="{{ item }}">{{ item }}</label>
+      {% else %}
+        <label><input onchange="this.form.submit()" type="radio" name="year" value="{{ item }}">{{ item }}</label>
+      {% endif %}
+    {% endfor %}
+
+    {#  Form submit button #}
+    {#  <input type="submit" value="Submit">  #}
+  </form>
+
+  {# D3 Diagramm #}
+  <div id="chart"></div>
+
+  {# Load JavaScript #}
+  <script src="static/d3.v.3.5.17.js"></script>
+  <script src="static/sankey.js"></script>
+  <script src="static/d3VisJSON.js"></script>
+
+</body>
+
+</html>

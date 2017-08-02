@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Status</title>
+</head>
+
+<body>
+  <h1>{{ headline }}</h1>
+
+  {# List metadata #}
+  <ul id="metadata_listing">
+    {% for item in metadata %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+
+</body>
+
+</html>

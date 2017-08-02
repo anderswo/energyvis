@@ -1,0 +1,12 @@
+source,target,value
+Primary production,Production,119769.8
+Other production,Production,4463.4
+Production,Available from all sources,124233.2
+Imports,Available from all sources,255759.9
+Stock draw,Available from all sources,930.2
+Statistical difference - inflow,Available from all sources,2999.8
+Available from all sources,Direct carry-over,139023.3
+Direct carry-over,Available after transformation,139023.3
+Available from all sources,Transformation,244899.8
+Transformation,Available after transformation,180488.9
+Transformation,Transformation losses,64410.9

@@ -1,0 +1,20 @@
+{
+  "nodes":[
+    {"name":"Primary production"},
+    {"name":"Other production"},
+    {"name":"Production"},
+    {"name":"Imports"},
+    {"name":"Statistical difference - inflow"},
+    {"name":"Available from all sources"},
+    {"name":"Stock draw"},
+    {"name":"Direct carry-over"}
+  ],
+  "links": [
+    {"source":"Primary production","target":"Production","value":119769.8},
+    {"source":"Other production","target":"Production","value":4463.4},
+    {"source":"Production","target":"Available from all sources","value":124233.2},
+    {"source":"Imports","target":"Available from all sources","value":255759.9},
+    {"source":"Stock draw","target":"Available from all sources","value":930.2},
+    {"source":"Statistical difference - inflow","target":"Available from all sources","value":2999.8},
+    {"source":"Available from all sources","target":"Direct carry-over","value":139023.3}
+]}

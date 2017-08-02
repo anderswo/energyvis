@@ -1,0 +1,88 @@
+Code		Label
+B_100100	Primary production
+B_100112	Direct use
+B_100115_S	Other production
+B_100300	Imports
+B_100500	Exports
+B_100401_S	Stock draw
+B_100402_S	Stock build
+B_100420_S	Available from all sources
+B_100450_S	Into direct carry-over
+B_100460_S	From direct carry-over
+B_100800	International Marine Bunkers
+B_100120_S	Production
+B_102201_S	Statistical difference - inflow
+B_102202_S	Statistical difference - outflow
+B_101550_S	Final consumption
+B_101251_S	Transformation losses
+B_101280_S	Exchanges, Transfers, Returns - losses
+B_101201_S	Transformation losses from Conventional Thermal Power Stations
+B_101202_S	Transformation losses from Nuclear Power Stations
+B_101204_S	Transformation losses from Coke Ovens
+B_101206_S	Transformation losses from Blast-furnaces
+B_101207_S	Transformation losses from Gas works
+B_101208_S	Transformation losses from Refineries
+B_101209_S	Transformation losses from District Heating Plants
+B_101211_S	Transformation losses from BKB / PB Plants
+B_101260_S	Other transformation losses
+B_101002	Transformation input - Nuclear Power Stations
+B_101004	Transformation input in Coke Ovens
+B_101006	Transformation input in Blast Furnaces
+B_101007	Transformation input in Gas Works
+B_101008	Transformation input in Refineries
+B_101011	Transformation input in BKB / PB Plants
+B_101001	Transformation input - Conventional Thermal Power Stations
+B_101009	Transformation input - District heating plants
+B_101050_S	Gross transformation input
+B_101051_S	Net transformation input
+B_101060_S	Other transformation input
+B_101080_S	Exchanges, Transfers, Returns - input
+B_101085_S	Transformation backflow
+B_101101	Transformation output - Conventional Thermal Power Stations
+B_101109	Transformation output - District Heating Plants
+B_101102	Transformation output - Nuclear Power Stations
+B_101104	Transformation output from Coke Ovens
+B_101106	Transformation output from Blast Furnaces
+B_101107	Transformation output from Gas Works
+B_101108	Transformation output from Refineries
+B_101111	Transformation output from BKB / PB Plants
+B_101150_S	Gross transformation output
+B_101151_S	Net transformation output
+B_101160_S	Other transformation output
+B_101180_S	Exchanges, Transfers, Returns - output
+B_101195_S	Available after transformation
+B_101300	Consumption in Energy Sector
+B_101400	Distribution Losses
+B_101600	Final Non-energy Consumption
+B_101605	Non-energy use in Industry sector
+B_101606	Non-energy use in Transport Sector
+B_101610_S	Non-energy use - miscellaneous
+B_101700	Final Energy Consumption
+B_101800	Final Energy Consumption - Industry
+B_101805	Iron and Steel
+B_101810	Non-Ferrous Metals
+B_101815	Chemical and Petrochemical
+B_101820	Non-Metallic Minerals
+B_101825	Mining and Quarrying
+B_101830	Food and Tobacco
+B_101835	Textile and Leather
+B_101840	Paper, Pulp and Print
+B_101846	Transport Equipment
+B_101847	Machinery
+B_101851	Wood and Wood Products
+B_101852	Construction
+B_101853	Non-specified (Industry)
+B_101900	Final Energy Consumption - Transport
+B_101910	Rail
+B_101920	Road
+B_101931	International aviation
+B_101932	Domestic aviation
+B_101940	Domestic Navigation
+B_101945	Consumption in Pipeline transport
+B_101950	Non-specified (Transport)
+B_102000	Final Energy Consumption - Other Sectors
+B_102010	Residential
+B_102020	Fishing
+B_102030	Agriculture/Forestry
+B_102035	Services
+B_102040	Non-specified (Other)

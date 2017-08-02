@@ -1,0 +1,47 @@
+/* index html styling */
+
+input[type="radio"] {
+  margin-left:10px;
+}
+
+
+/* D3 styling*/
+
+/* Properties for the node rectangles.
+Changes the icon for the cursor when it moves over the rectangle
+to one that looks like it will move the rectangle.
+*/
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+
+/* Set the properties for the text at each node */
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+
+/* Makes sure that the link has no fill (it actually appears to be a bendy rectangle
+with very thick edges that make the element appear to be a solid block), colours the
+edges black (#000) and makes the edges almost transparent.
+*/
+
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+
+/* Changes the opacity of the link when the mouse goes over it so that it’s more visible */
+
+.link:hover {
+  stroke-opacity: .5;
+  stroke: red;
+}

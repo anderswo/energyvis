@@ -1,0 +1,14 @@
+# General files and folders to exclude
+__pycache__
+*.pyc
+venv
+
+# Exclude individual settings
+*.sublime-workspace
+*.sublime-project
+.idea
+config.cmd
+tools
+
+# Exclude log files
+log

@@ -1,0 +1,2 @@
+Code	Label
+KTOE	Thousand tonnes of oil equivalent (TOE)
